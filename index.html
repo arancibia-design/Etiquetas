@@ -152,6 +152,145 @@
       </tr>
     </tbody>
   </table>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ETIQUETAS HTML</title>
+<style>
+    body {
+        background-color: #f0eefc;
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 20px;
+        color: #333;
+    }
+    h1, h2 {
+        text-align: center;
+        color: #4b3f72;
+        margin-bottom: 20px;
+    }
+    table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        margin-bottom: 40px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        border-radius: 12px;
+        overflow: hidden;
+        background-color: #fff;
+    }
+    th {
+        background: linear-gradient(135deg, #6a5acd, #8a2be2);
+        color: white;
+        font-weight: bold;
+        padding: 12px;
+        text-align: left;
+        font-size: 16px;
+    }
+    td {
+        padding: 12px;
+        border-top: 1px solid #f0f0f5;
+        font-size: 14px;
+    }
+    tr:hover td {
+        background-color: #f3f3ff;
+        transition: 0.3s;
+    }
+    .ejemplo {
+        display: inline-block;
+        padding: 6px 10px;
+        background-color: #eef6ff;
+        border-left: 4px solid #6a5acd;
+        border-radius: 6px;
+        font-family: monospace;
+        color: #2c3e50;
+    }
+    header h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    p {
+        text-align: center;
+        font-size: 16px;
+        color: #555;
+    }
+    a {
+        color: #6a5acd;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Etiquetas HTML</h1>
+</header>
+
+<p>Lista completa de etiquetas HTML organizada por categorías.</p>
+
+<!-- Tabla: Estructuras Básicas -->
+<h2>Estructuras Básicas</h2>
+<table>
+<tr><th>Etiqueta</th><th>Definición</th><th>Ejemplo</th></tr>
+<tr><td>&lt;!DOCTYPE html&gt;</td><td>Indica que el documento es HTML5.</td><td><span class="ejemplo">&lt;!DOCTYPE html&gt;</span></td></tr>
+<tr><td>&lt;html&gt;</td><td>Define el inicio y fin del documento HTML.</td><td><span class="ejemplo">&lt;html&gt; ... &lt;/html&gt;</span></td></tr>
+<tr><td>&lt;head&gt;</td><td>Contiene metadatos, enlaces a estilos o scripts.</td><td><span class="ejemplo">&lt;head&gt;&lt;title&gt;Mi sitio web&lt;/title&gt;&lt;/head&gt;</span></td></tr>
+<tr><td>&lt;title&gt;</td><td>Define el título de la página web.</td><td><span class="ejemplo">&lt;title&gt;Mi sitio web&lt;/title&gt;</span></td></tr>
+<tr><td>&lt;body&gt;</td><td>Contiene el contenido visible de la página.</td><td><span class="ejemplo">&lt;body&gt;&lt;p&gt;Hola Mundo&lt;/p&gt;&lt;/body&gt;</span></td></tr>
+</table>
+
+<!-- Tabla: Texto y Formato -->
+<h2>Texto y Formato</h2>
+<table>
+<tr><th>Etiqueta</th><th>Definición</th><th>Ejemplo</th></tr>
+<tr><td>&lt;h1&gt; a &lt;h6&gt;</td><td>Títulos de distintos niveles o tamaños.</td><td><span class="ejemplo">&lt;h1&gt;Título&lt;/h1&gt;</span></td></tr>
+<tr><td>&lt;p&gt;</td><td>Párrafos de texto.</td><td><span class="ejemplo">&lt;p&gt;Hola mundo&lt;/p&gt;</span></td></tr>
+<tr><td>&lt;br&gt;</td><td>Salto de línea.</td><td><span class="ejemplo">&lt;br&gt;</span></td></tr>
+<tr><td>&lt;strong&gt;</td><td>Texto en negrita con énfasis.</td><td><span class="ejemplo">&lt;strong&gt;Importante&lt;/strong&gt;</span></td></tr>
+<tr><td>&lt;em&gt;</td><td>Texto en cursiva con énfasis.</td><td><span class="ejemplo">&lt;em&gt;Énfasis&lt;/em&gt;</span></td></tr>
+<tr><td>&lt;hr&gt;</td><td>Línea horizontal.</td><td><span class="ejemplo">&lt;hr&gt;</span></td></tr>
+<tr><td>&lt;b&gt;</td><td>Texto en negritas (no semántico).</td><td><span class="ejemplo">&lt;b&gt;Hola Mundo&lt;/b&gt;</span></td></tr>
+</table>
+
+<!-- Tabla: Estructuras del Contenido -->
+<h2>Estructuras del Contenido</h2>
+<table>
+<tr><th>Etiqueta</th><th>Definición</th><th>Ejemplo</th></tr>
+<tr><td>&lt;header&gt;</td><td>Encabezado de una página o sección.</td><td><span class="ejemplo">&lt;header&gt;&lt;h1&gt;Mi web&lt;/h1&gt;&lt;/header&gt;</span></td></tr>
+<tr><td>&lt;footer&gt;</td><td>Pie de página.</td><td><span class="ejemplo">&lt;footer&gt;©2025 Mi sitio&lt;/footer&gt;</span></td></tr>
+<tr><td>&lt;main&gt;</td><td>Contenido principal.</td><td><span class="ejemplo">&lt;main&gt;&lt;h1&gt;Contenido&lt;/h1&gt;&lt;/main&gt;</span></td></tr>
+<tr><td>&lt;nav&gt;</td><td>Sección de navegación.</td><td><span class="ejemplo">&lt;nav&gt;&lt;a href="#"&gt;Inicio&lt;/a&gt;&lt;/nav&gt;</span></td></tr>
+<tr><td>&lt;section&gt;</td><td>Sección semántica de contenido.</td><td><span class="ejemplo">&lt;section&gt;...&lt;/section&gt;</span></td></tr>
+<tr><td>&lt;article&gt;</td><td>Contenido independiente y autocontenido.</td><td><span class="ejemplo">&lt;article&gt;...&lt;/article&gt;</span></td></tr>
+<tr><td>&lt;aside&gt;</td><td>Contenido lateral o complementario.</td><td><span class="ejemplo">&lt;aside&gt;...&lt;/aside&gt;</span></td></tr>
+</table>
+
+<!-- Tabla: Enlaces y Navegación -->
+<h2>Enlaces y Navegación</h2>
+<table>
+<tr><th>Etiqueta</th><th>Definición</th><th>Ejemplo</th></tr>
+<tr><td>&lt;a&gt;</td><td>Enlace a otra página o sección.</td><td><span class="ejemplo">&lt;a href="https://example.com"&gt;Ir&lt;/a&gt;</span></td></tr>
+<tr><td>&lt;link&gt;</td><td>Enlaza un archivo externo (CSS, por ejemplo).</td><td><span class="ejemplo">&lt;link rel="stylesheet" href="style.css"&gt;</span></td></tr>
+</table>
+
+<!-- Tabla: Listas -->
+<h2>Listas</h2>
+<table>
+<tr><th>Etiqueta</th><th>Definición</th><th>Ejemplo</th></tr>
+<tr><td>&lt;ul&gt;</td><td>Lista sin orden (con viñetas).</td><td><span class="ejemplo">&lt;ul&gt;&lt;li&gt;Ejemplo&lt;/li&gt;&lt;/ul&gt;</span></td></tr>
+<tr><td>&lt;ol&gt;</td><td>Lista ordenada (numerada).</td><td><span class="ejemplo">&lt;ol&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ol&gt;</span></td></tr>
+<tr><td>&lt;li&gt;</td><td>Elemento de lista.</td><td><span class="ejemplo">&lt;li&gt;Elemento&lt;/li&gt;</span></td></tr>
+</table>
+
+<!-- Tabla: Multimedia -->
+<h2>Multimedia</h2>
+<table>
+<tr><th>Etiqueta</th><th>Definición</th><th>Ejemplo</th></tr>
+<tr><td>&lt;img&gt;</td><td>Imagen.</td><td><span class="ejemplo">&lt;img src="imagen.jpg" alt="Descripción"&gt;</span></td></tr>
+<tr><td>&lt;video&gt;</td><td>Video.</td><td><span class="ejemplo">&lt;video src="video.mp4" controls&gt;&lt;/video&gt;</span></td></tr>
+<tr><td>&lt;audio&gt;</td><td>Audio.</td><td><span class="ejemplo">&lt;audio src="audio.mp3" controls&gt;&lt;/audio&gt;</span></td></tr>
+</table>
 
 </body>
 </html>
