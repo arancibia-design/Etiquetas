@@ -1,6 +1,157 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Etiquetas HTML</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f7f7fb; }
+    h1, h2 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; background: white; border-radius: 10px; overflow: hidden; margin-bottom: 30px; }
+    th { background: #5b8def; color: white; padding: 10px; text-align: left; }
+    td { padding: 10px; border-top: 1px solid #eef2ff; }
+    .ejemplo { padding: 6px 8px; background: #eef6ff; border-radius: 6px; font-family: monospace; }
+    h2 { margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <h1>Etiquetas HTML — Versión Compañera</h1>
+  <p>Lista de etiquetas HTML organizada por categoría.</p>
+
+  <!-- Estructura de contenido -->
+  <h2>Estructura de contenido</h2>
+  <table>
+    <thead>
+      <tr><th>Etiqueta</th><th>Descripción</th><th>Ejemplo</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&lt;header&gt;</td>
+        <td>Encabezado de la página o sección</td>
+        <td><span class="ejemplo">&lt;header&gt;...&lt;/header&gt;</span></td>
+      </tr>
+      <tr>
+        <td>&lt;section&gt;</td>
+        <td>Sección semántica de contenido</td>
+        <td><span class="ejemplo">&lt;section&gt;...&lt;/section&gt;</span></td>
+      </tr>
+      <tr>
+        <td>&lt;article&gt;</td>
+        <td>Contenido independiente y autocontenido</td>
+        <td><span class="ejemplo">&lt;article&gt;...&lt;/article&gt;</span></td>
+      </tr>
+      <tr>
+        <td>&lt;aside&gt;</td>
+        <td>Contenido lateral o complementario</td>
+        <td><span class="ejemplo">&lt;aside&gt;...&lt;/aside&gt;</span></td>
+      </tr>
+      <tr>
+        <td>&lt;footer&gt;</td>
+        <td>Pie de página</td>
+        <td><span class="ejemplo">&lt;footer&gt;...&lt;/footer&gt;</span></td>
+      </tr>
+      <tr>
+        <td>&lt;nav&gt;</td>
+        <td>Sección de navegación</td>
+        <td><span class="ejemplo">&lt;nav&gt;...&lt;/nav&gt;</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Texto y formato -->
+  <h2>Texto y formato</h2>
+  <table>
+    <thead>
+      <tr><th>Etiqueta</th><th>Descripción</th><th>Ejemplo</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&lt;p&gt;</td>
+        <td>Párrafo de texto</td>
+        <td><span class="ejemplo">&lt;p&gt;Hola mundo&lt;/p&gt;</span></td>
+      </tr>
+      <tr>
+        <td>&lt;h1&gt; a &lt;h6&gt;</td>
+        <td>Encabezados de diferentes niveles</td>
+        <td><span class="ejemplo">&lt;h1&gt;Título&lt;/h1&gt;</span></td>
+      </tr>
+      <tr>
+        <td>&lt;strong&gt;</td>
+        <td>Texto en negrita con énfasis</td>
+        <td><span class="ejemplo">&lt;strong&gt;Importante&lt;/strong&gt;</span></td>
+      </tr>
+      <tr>
+        <td>&lt;em&gt;</td>
+        <td>Texto en cursiva con énfasis</td>
+        <td><span class="ejemplo">&lt;em&gt;Énfasis&lt;/em&gt;</span></td>
+      </tr>
+      <tr>
+        <td>&lt;br&gt;</td>
+        <td>Salto de línea</td>
+        <td><span class="ejemplo">&lt;br&gt;</span></td>
+      </tr>
+      <tr>
+        <td>&lt;hr&gt;</td>
+        <td>Línea horizontal</td>
+        <td><span class="ejemplo">&lt;hr&gt;</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Enlaces y listas -->
+  <h2>Enlaces y listas</h2>
+  <table>
+    <thead>
+      <tr><th>Etiqueta</th><th>Descripción</th><th>Ejemplo</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&lt;a&gt;</td>
+        <td>Enlace a otra página o sección</td>
+        <td><span class="ejemplo">&lt;a href=&quot;https://example.com&quot;&gt;Ir&lt;/a&gt;</span></td>
+      </tr>
+      <tr>
+        <td>&lt;ul&gt;</td>
+        <td>Lista no ordenada</td>
+        <td><span class="ejemplo">&lt;ul&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ul&gt;</span></td>
+      </tr>
+      <tr>
+        <td>&lt;ol&gt;</td>
+        <td>Lista ordenada</td>
+        <td><span class="ejemplo">&lt;ol&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ol&gt;</span></td>
+      </tr>
+      <tr>
+        <td>&lt;li&gt;</td>
+        <td>Elemento de lista</td>
+        <td><span class="ejemplo">&lt;li&gt;Elemento&lt;/li&gt;</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Multimedia -->
+  <h2>Multimedia</h2>
+  <table>
+    <thead>
+      <tr><th>Etiqueta</th><th>Descripción</th><th>Ejemplo</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&lt;img&gt;</td>
+        <td>Imagen</td>
+        <td><span class="ejemplo">&lt;img src=&quot;imagen.jpg&quot; alt=&quot;Descripción&quot;&gt;</span></td>
+      </tr>
+      <tr>
+        <td>&lt;video&gt;</td>
+        <td>Video</td>
+        <td><span class="ejemplo">&lt;video src=&quot;video.mp4&quot; controls&gt;&lt;/video&gt;</span></td>
+      </tr>
+      <tr>
+        <td>&lt;audio&gt;</td>
+        <td>Audio</td>
+        <td><span class="ejemplo">&lt;audio src=&quot;audio.mp3&quot; controls&gt;&lt;/audio&gt;</span></td>
+      </tr>
+    </tbody>
+  </table>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ETIQUETAS HTML</title>
